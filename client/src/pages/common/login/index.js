@@ -28,7 +28,7 @@ function Login() {
         }
 
         // ✅ Optional: redirect
-        window.location.href = "/register";
+        window.location.href = "/";
 
       } else {
         toast.error(response.message);
